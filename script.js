@@ -48,7 +48,7 @@ async function getQuotes () {
         newQuote();
     } catch (error) {
         //Catch Err
-        Console.log(error);
+        Console.log("Whoops: ", error);
     }
 }
 
